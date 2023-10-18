@@ -1,0 +1,25 @@
+var a = " 101.1 ";
+var b = "55";
+var c = "402 Stevens";
+var d = "Number 5 ";
+
+console.log("Float");
+console.log(" 101.1- " + parseFloat(a));
+console.log("55- " + parseFloat(b));
+console.log("402 Stevens- " + parseFloat(c));
+console.log("Number 5- " + parseFloat(d));
+console.log("Integer");
+console.log(" 101.1- " + parseInt(a));
+console.log("55- " + parseInt(b));
+console.log("402 Stevens- " + parseInt(c));
+console.log("Number 5- " + parseInt(d));
+console.log("Number");
+console.log(" 101.1- " + Number(a));
+console.log("55- " + Number(b));
+console.log("402 Stevens- " + Number(c));
+console.log("Number 5- " + Number(d));
+console.log("Unary");
+console.log(" 101.1- " + +a);
+console.log("55- " + +b);
+console.log("402 Stevens- " + +c);
+console.log("Number 5- " + +d);
